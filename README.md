@@ -9,5 +9,6 @@ CALL python train.py --coco_path ./data --output_path ./output --depth 101 --epo
 
 CALL python test.py --coco_path ./data --checkpoint_path ./output/model_final.pt --depth 101 --set_name val 
 
-Here lr_plan is to switch to the ReduceLROnPlateau scheduler.
+Here lr_plan is to switch to the ReduceLROnPlateau scheduler. 
+The outputs are available via the model_link.txt file.
 Please contact yl9919@connect.hku.hk for any inquiries. 
